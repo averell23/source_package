@@ -31,7 +31,7 @@ Attributes
 Usage
 =====
 
-    ruby_from_source_source_package node.ruby_from_source.yaml_version do
+    source_package node.ruby_from_source.yaml_version do
       download_url "http://pyyaml.org/download/libyaml"
       prefix node.ruby_from_source.prefix
       checksum node.ruby_from_source.yaml_tarball_checksum
